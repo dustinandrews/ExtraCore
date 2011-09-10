@@ -1,0 +1,1 @@
+This folder has the Eagle Files for an 0805 component size version. It's currently untested. Use at your own risk.
