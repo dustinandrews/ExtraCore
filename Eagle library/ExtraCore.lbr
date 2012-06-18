@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Arduino-compatible board designed by Dustin Andrews.</description>
+<packages>
+<package name="EXTRACORE">
+<wire x1="-10.033" y1="-11.303" x2="10.033" y2="-11.303" width="0.127" layer="21"/>
+<wire x1="10.033" y1="-11.303" x2="10.033" y2="11.303" width="0.127" layer="21"/>
+<wire x1="10.033" y1="11.303" x2="-10.033" y2="11.303" width="0.127" layer="21"/>
+<wire x1="-10.033" y1="11.303" x2="-10.033" y2="-11.303" width="0.127" layer="21"/>
+<pad name="GND@1" x="-8.89" y="10.16" drill="0.8"/>
+<pad name="GND@2" x="-6.35" y="10.16" drill="0.8"/>
+<pad name="5V" x="-3.81" y="10.16" drill="0.8"/>
+<pad name="RX" x="-1.27" y="10.16" drill="0.8"/>
+<pad name="TX" x="1.27" y="10.16" drill="0.8"/>
+<pad name="DTR" x="3.81" y="10.16" drill="0.8"/>
+<pad name="AREF" x="6.35" y="10.16" drill="0.8"/>
+<pad name="RST" x="8.89" y="10.16" drill="0.8"/>
+<pad name="D13" x="8.89" y="7.62" drill="0.8"/>
+<pad name="D12" x="8.89" y="5.08" drill="0.8"/>
+<pad name="D11" x="8.89" y="2.54" drill="0.8"/>
+<pad name="D10" x="8.89" y="0" drill="0.8"/>
+<pad name="D9" x="8.89" y="-2.54" drill="0.8"/>
+<pad name="D8" x="8.89" y="-5.08" drill="0.8"/>
+<pad name="D7" x="8.89" y="-7.62" drill="0.8"/>
+<pad name="D6" x="8.89" y="-10.16" drill="0.8"/>
+<pad name="D5" x="6.35" y="-10.16" drill="0.8"/>
+<pad name="D4" x="3.81" y="-10.16" drill="0.8"/>
+<pad name="D3" x="1.27" y="-10.16" drill="0.8"/>
+<pad name="D2" x="-1.27" y="-10.16" drill="0.8"/>
+<pad name="A7" x="-3.81" y="-10.16" drill="0.8"/>
+<pad name="A6" x="-6.35" y="-10.16" drill="0.8"/>
+<pad name="A5" x="-8.89" y="-10.16" drill="0.8"/>
+<pad name="A4" x="-8.89" y="-7.62" drill="0.8"/>
+<pad name="A3" x="-8.89" y="-5.08" drill="0.8"/>
+<pad name="A2" x="-8.89" y="-2.54" drill="0.8"/>
+<pad name="A1" x="-8.89" y="0" drill="0.8"/>
+<pad name="A0" x="-8.89" y="2.54" drill="0.8"/>
+<pad name="VCC" x="-8.89" y="5.08" drill="0.8"/>
+<pad name="GND@3" x="-8.89" y="7.62" drill="0.8"/>
+<text x="-4.064" y="-0.635" size="1.27" layer="21">ExtraCore</text>
+<text x="-9.652" y="8.636" size="0.6096" layer="21" font="vector" ratio="12">GND</text>
+<text x="-7.112" y="8.636" size="0.6096" layer="21" font="vector" ratio="12">GND</text>
+<text x="-4.318" y="8.636" size="0.6096" layer="21" font="vector" ratio="12">5V</text>
+<text x="-1.778" y="8.636" size="0.6096" layer="21" font="vector" ratio="12">RX</text>
+<text x="0.762" y="8.636" size="0.6096" layer="21" font="vector" ratio="12">TX</text>
+<text x="3.048" y="8.636" size="0.6096" layer="21" font="vector" ratio="12">DTR</text>
+<text x="5.842" y="8.89" size="0.4064" layer="21" font="vector" ratio="12">AREF</text>
+<text x="8.128" y="8.89" size="0.6096" layer="21" font="vector" ratio="12">RST</text>
+<text x="6.604" y="7.366" size="0.6096" layer="21" font="vector" ratio="12">D13</text>
+<text x="6.604" y="4.826" size="0.6096" layer="21" font="vector" ratio="12">D12</text>
+<text x="6.604" y="2.286" size="0.6096" layer="21" font="vector" ratio="12">D11</text>
+<text x="6.604" y="-0.254" size="0.6096" layer="21" font="vector" ratio="12">D10</text>
+<text x="7.112" y="-2.794" size="0.6096" layer="21" font="vector" ratio="12">D9</text>
+<text x="7.112" y="-5.334" size="0.6096" layer="21" font="vector" ratio="12">D8</text>
+<text x="7.112" y="-7.874" size="0.6096" layer="21" font="vector" ratio="12">D7</text>
+<text x="7.874" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">D6</text>
+<text x="5.842" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">D5</text>
+<text x="3.302" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">D4</text>
+<text x="0.762" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">D3</text>
+<text x="-1.778" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">D2</text>
+<text x="-4.318" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">A7</text>
+<text x="-6.858" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">A6</text>
+<text x="-9.398" y="-9.398" size="0.6096" layer="21" font="vector" ratio="12">A5</text>
+<text x="-8.128" y="-7.874" size="0.6096" layer="21" font="vector" ratio="12">A4</text>
+<text x="-8.128" y="-5.334" size="0.6096" layer="21" font="vector" ratio="12">A3</text>
+<text x="-8.128" y="-2.794" size="0.6096" layer="21" font="vector" ratio="12">A2</text>
+<text x="-8.128" y="-0.254" size="0.6096" layer="21" font="vector" ratio="12">A1</text>
+<text x="-8.128" y="2.286" size="0.6096" layer="21" font="vector" ratio="12">A0</text>
+<text x="-7.4168" y="4.1402" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">VCC</text>
+<text x="-7.4676" y="6.604" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">GND</text>
+</package>
+</packages>
+<symbols>
+<symbol name="EXTRACORE">
+<wire x1="-17.78" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-15.24" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<pin name="GND@1" x="-10.16" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@2" x="-7.62" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="5V" x="-5.08" y="17.78" length="middle" direction="pwr" rot="R270"/>
+<pin name="RX" x="-2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="TX" x="0" y="17.78" length="middle" rot="R270"/>
+<pin name="DTR" x="2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="AREF" x="5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="RST" x="7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="GND@3" x="-22.86" y="7.62" length="middle" direction="pwr"/>
+<pin name="VCC" x="-22.86" y="5.08" length="middle" direction="pwr"/>
+<pin name="A0" x="-22.86" y="2.54" length="middle"/>
+<pin name="A1" x="-22.86" y="0" length="middle"/>
+<pin name="A2" x="-22.86" y="-2.54" length="middle"/>
+<pin name="A3" x="-22.86" y="-5.08" length="middle"/>
+<pin name="A4" x="-22.86" y="-7.62" length="middle"/>
+<pin name="D13" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="D12" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="D10" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="D9" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="D8" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="D7" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="D6" x="7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="D5" x="5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="D4" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="D3" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="D2" x="-2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="A7" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="A6" x="-7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="A5" x="-10.16" y="-20.32" length="middle" rot="R90"/>
+<pin name="D11" x="20.32" y="2.54" length="middle" rot="R180"/>
+<text x="-7.366" y="-1.524" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-4.318" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EXTRACORE">
+<gates>
+<gate name="G$1" symbol="EXTRACORE" x="17.78" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="EXTRACORE">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="DTR" pad="DTR"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
