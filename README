@@ -11,10 +11,10 @@ http://creativecommons.org/licenses/by-sa/3.0/
 Design file license may be out of date. No worries, it really is CC BY-SA 3.0.
 
 === Updates ===
-Additions and updates done by Jason Webb (http://cs.unk.edu/~webb)
-- Added ExtraCore 2
-  + Removed low-pass AVCC filter'
+- Added ExtraCore RST
+  + Removed low-pass AVCC filter
   + Added SMD tactile reset button
   + Used 0805 parts
   + Added 4x4 panelized BRD file for PCB production by SeeedStudio
 - Organized file structure a bit
+- Added Eagle library
