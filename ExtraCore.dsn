@@ -1,0 +1,314 @@
+(PCB "C:/Users/a-duandr/Documents/GitHub/ExtraCore/ExtraCore.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft')
+  )
+  (resolution mil 254)
+  (unit mil)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 780.000000 880.000000)
+    )
+    (boundary (path signal 0 0.000000 0.000000 0.000000 880.000000))
+    (boundary (path signal 0 0.000000 880.000000 780.000000 880.000000))
+    (boundary (path signal 0 780.000000 880.000000 780.000000 0.000000))
+    (boundary (path signal 0 780.000000 0.000000 0.000000 0.000000))
+    (via
+       "Round1$15.000000"
+    )
+    (rule (width 8.000000)(clearance 8.000000))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "1X01$SparkFun" 
+      (place "A5" 40.000000 40.000000 Front 0.000000)
+    )
+    (component "1X01$SparkFun" 
+      (place "AREF" 640.000000 840.000000 Front 0.000000)
+    )
+    (component "TQFP32-08$SparkFun" 
+      (place "ATMEGAXX8" 334.000000 410.000000 Front 90.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "C1" 340.000000 170.000000 Front 0.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "C2" 190.000000 680.000000 Front 270.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "C3" 340.000000 670.000000 Front 0.000000)
+    )
+    (component "0805$SparkFun-Passives" 
+      (place "C4" 488.000000 547.000000 Back 90.000000)
+    )
+    (component "0805$SparkFun-Passives" 
+      (place "C5" 398.000000 550.000000 Back 90.000000)
+    )
+    (component "1X06$SparkFun" 
+      (place "JP1" 40.000000 840.000000 Front 0.000000)
+    )
+    (component "1X07$SparkFun" 
+      (place "JP2" 40.000000 140.000000 Front 90.000000)
+    )
+    (component "1X07$SparkFun" 
+      (place "JP3" 740.000000 40.000000 Front 180.000000)
+    )
+    (component "1X07$SparkFun" 
+      (place "JP4" 740.000000 740.000000 Front 270.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "L1" 450.000000 670.000000 Front 0.000000)
+    )
+    (component "LED1206$ExtraCore" 
+      (place "LED1" 580.000000 570.000000 Front 270.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "R1" 250.000000 680.000000 Front 90.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "R2" 590.000000 690.000000 Front 180.000000)
+    )
+    (component "1X01$SparkFun" 
+      (place "RESET" 740.000000 840.000000 Front 0.000000)
+    )
+    (component "SOT223$Dustin" 
+      (place "RG1" 398.000000 286.000000 Back 180.000000)
+    )
+    (component "RESONATOR-SMD$SparkFun" 
+      (place "Y1" 480.000000 156.000000 Front 0.000000)
+    )
+  )
+  (library
+    (image "SOT223$Dustin"
+      (pin "Rectangle1" "1" -91.000000 -122.000000)
+      (pin "Rectangle1" "2" 0.000000 -122.000000)
+      (pin "Rectangle1" "3" 91.000000 -122.000000)
+      (pin "Rectangle2" "TAB" 0.000000 122.007874)
+    )
+    (image "LED1206$ExtraCore"
+    (outline (path signal 0 -31.496063 31.496063 31.496063 31.496063))
+    (outline (path signal 0 -31.496063 -31.496063 31.496063 -31.496063))
+    (outline (path signal 0 15.748031 23.622047 15.748031 -23.622047))
+    (outline (path signal 0 -23.622047 23.622047 -23.622047 -23.622047))
+    (outline (path signal 0 -23.622047 -23.622047 15.748031 0.000000))
+    (outline (path signal 0 15.748031 0.000000 -23.622047 23.622047))
+      (pin "Rectangle3" "A" -59.055118 0.000000)
+      (pin "Rectangle3" "K" 59.055118 0.000000)
+    )
+    (image "1X01$SparkFun"
+      (pin "Round2" "1" 0.000000 0.000000)
+    )
+    (image "1X06$SparkFun"
+      (pin "Round2" "1" 0.000000 0.000000)
+      (pin "Round2" "2" 100.000000 0.000000)
+      (pin "Round2" "3" 200.000000 0.000000)
+      (pin "Round2" "4" 300.000000 0.000000)
+      (pin "Round2" "5" 400.000000 0.000000)
+      (pin "Round2" "6" 500.000000 0.000000)
+    )
+    (image "1X07$SparkFun"
+      (pin "Round2" "1" 0.000000 0.000000)
+      (pin "Round2" "2" 100.000000 0.000000)
+      (pin "Round2" "3" 200.000000 0.000000)
+      (pin "Round2" "4" 300.000000 0.000000)
+      (pin "Round2" "5" 400.000000 0.000000)
+      (pin "Round2" "6" 500.000000 0.000000)
+      (pin "Round2" "7" 600.000000 0.000000)
+    )
+    (image "0805$SparkFun"
+      (pin "Rectangle4" "1" -35.433071 0.000000)
+      (pin "Rectangle4" "2" 35.433071 0.000000)
+    )
+    (image "RESONATOR-SMD$SparkFun"
+      (pin "Rectangle5" "1" -47.244094 0.000000)
+      (pin "Rectangle5" "2" 0.000000 0.000000)
+      (pin "Rectangle5" "3" 47.244094 0.000000)
+    )
+    (image "TQFP32-08$SparkFun"
+      (outline(circ "1#Top" 28.283465 -108.000000 108.000000))
+      (pin "Rectangle6" "1" -169.000000 110.236220)
+      (pin "Rectangle6" "2" -169.000000 78.740157)
+      (pin "Rectangle6" "3" -169.000000 47.244094)
+      (pin "Rectangle6" "4" -169.000000 15.748031)
+      (pin "Rectangle6" "5" -169.000000 -15.748031)
+      (pin "Rectangle6" "6" -169.000000 -47.244094)
+      (pin "Rectangle6" "7" -169.000000 -78.740157)
+      (pin "Rectangle6" "8" -169.000000 -110.236220)
+      (pin "Rectangle7" "9" -110.236220 -169.000000)
+      (pin "Rectangle7" "10" -78.740157 -169.000000)
+      (pin "Rectangle7" "11" -47.244094 -169.000000)
+      (pin "Rectangle7" "12" -15.748031 -169.000000)
+      (pin "Rectangle7" "13" 15.748031 -169.000000)
+      (pin "Rectangle7" "14" 47.244094 -169.000000)
+      (pin "Rectangle7" "15" 78.740157 -169.000000)
+      (pin "Rectangle7" "16" 110.236220 -169.000000)
+      (pin "Rectangle6" "17" 169.000000 -110.236220)
+      (pin "Rectangle6" "18" 169.000000 -78.740157)
+      (pin "Rectangle6" "19" 169.000000 -47.244094)
+      (pin "Rectangle6" "20" 169.000000 -15.748031)
+      (pin "Rectangle6" "21" 169.000000 15.748031)
+      (pin "Rectangle6" "22" 169.000000 47.244094)
+      (pin "Rectangle6" "23" 169.000000 78.740157)
+      (pin "Rectangle6" "24" 169.000000 110.236220)
+      (pin "Rectangle7" "25" 110.236220 169.000000)
+      (pin "Rectangle7" "26" 78.740157 169.000000)
+      (pin "Rectangle7" "27" 47.244094 169.000000)
+      (pin "Rectangle7" "28" 15.748031 169.000000)
+      (pin "Rectangle7" "29" -15.748031 169.000000)
+      (pin "Rectangle7" "30" -47.244094 169.000000)
+      (pin "Rectangle7" "31" -78.740157 169.000000)
+      (pin "Rectangle7" "32" -110.236220 169.000000)
+    )
+    (image "0805$SparkFun-Passives"
+      (pin "Rectangle4" "1" -35.433071 0.000000)
+      (pin "Rectangle4" "2" 35.433071 0.000000)
+    )
+    (padstack "ViaDefault$15.000000"
+      (shape (circle signal 27.000000 0 0))
+    )
+    (padstack "Round1$15.000000" 
+      (shape (circle "1#Top" 27.000000 0 0))
+      (shape (circle "16#Bottom" 27.000000 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle1" 
+      (shape (rect "1#Top" -24.000000 -44.000000 24.000000 44.000000))
+      (attach off)
+    )
+    (padstack "Rectangle2" 
+      (shape (rect "1#Top" -70.866142 -43.307087 70.866142 43.307087))
+      (attach off)
+    )
+    (padstack "Rectangle3" 
+      (shape (rect "1#Top" -19.685039 -29.527559 19.685039 29.527559))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 60.000000 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle4" 
+      (shape (rect "1#Top" -15.748031 -23.622047 15.748031 23.622047))
+      (attach off)
+    )
+    (padstack "Rectangle5" 
+      (shape (rect "1#Top" -13.779528 -33.464567 13.779528 33.464567))
+      (attach off)
+    )
+    (padstack "Rectangle6" 
+      (shape (rect "1#Top" -25.000000 -11.000000 25.000000 11.000000))
+      (attach off)
+    )
+    (padstack "Rectangle7" 
+      (shape (rect "1#Top" -11.000000 -25.000000 11.000000 25.000000))
+      (attach off)
+    )
+  )
+  (network
+    (net "A0"
+      (pins  "ATMEGAXX8"-"23" "JP2"-"5")
+    )
+    (net "A1"
+      (pins  "ATMEGAXX8"-"24" "JP2"-"4")
+    )
+    (net "A2"
+      (pins  "ATMEGAXX8"-"25" "JP2"-"3")
+    )
+    (net "A3"
+      (pins  "ATMEGAXX8"-"26" "JP2"-"2")
+    )
+    (net "A4"
+      (pins  "ATMEGAXX8"-"27" "JP2"-"1")
+    )
+    (net "A5"
+      (pins  "ATMEGAXX8"-"28" "A5"-"1")
+    )
+    (net "A6"
+      (pins  "ATMEGAXX8"-"19" "JP3"-"7")
+    )
+    (net "A7"
+      (pins  "ATMEGAXX8"-"22" "JP3"-"6")
+    )
+    (net "AREF"
+      (pins  "AREF"-"1" "ATMEGAXX8"-"20")
+    )
+    (net "AVCC"
+      (pins  "ATMEGAXX8"-"18" "L1"-"1" "C3"-"2")
+    )
+    (net "D2"
+      (pins  "ATMEGAXX8"-"32" "JP3"-"5")
+    )
+    (net "D3"
+      (pins  "ATMEGAXX8"-"1" "JP3"-"4")
+    )
+    (net "D4"
+      (pins  "ATMEGAXX8"-"2" "JP3"-"3")
+    )
+    (net "D5"
+      (pins  "ATMEGAXX8"-"9" "JP3"-"2")
+    )
+    (net "D6"
+      (pins  "ATMEGAXX8"-"10" "JP3"-"1")
+    )
+    (net "D7"
+      (pins  "ATMEGAXX8"-"11" "JP4"-"7")
+    )
+    (net "D8"
+      (pins  "ATMEGAXX8"-"12" "JP4"-"6")
+    )
+    (net "D9"
+      (pins  "ATMEGAXX8"-"13" "JP4"-"5")
+    )
+    (net "D10"
+      (pins  "ATMEGAXX8"-"14" "JP4"-"4")
+    )
+    (net "DTR"
+      (pins  "C2"-"1" "JP1"-"6")
+    )
+    (net "GND"
+      (pins  "Y1"-"2" "ATMEGAXX8"-"5" "ATMEGAXX8"-"3" "ATMEGAXX8"-"21" "C1"-"1" "JP1"-"1" "JP1"-"2" "C3"-"1" "LED1"-"K" "RG1"-"1" "C4"-"2" "C5"-"2")
+    )
+    (net "MISO"
+      (pins  "ATMEGAXX8"-"16" "JP4"-"2")
+    )
+    (net "MOSI"
+      (pins  "ATMEGAXX8"-"15" "JP4"-"3")
+    )
+    (net "N$3"
+      (pins  "Y1"-"1" "ATMEGAXX8"-"7")
+    )
+    (net "N$4"
+      (pins  "Y1"-"3" "ATMEGAXX8"-"8")
+    )
+    (net "N$6"
+      (pins  "R2"-"1" "LED1"-"A")
+    )
+    (net "RAW"
+      (pins  "RG1"-"3" "C4"-"1" "JP2"-"7")
+    )
+    (net "RESET"
+      (pins  "ATMEGAXX8"-"29" "R1"-"1" "C2"-"2" "RESET"-"1")
+    )
+    (net "RX"
+      (pins  "ATMEGAXX8"-"30" "JP1"-"4")
+    )
+    (net "SCK"
+      (pins  "ATMEGAXX8"-"17" "R2"-"2" "JP4"-"1")
+    )
+    (net "TX"
+      (pins  "ATMEGAXX8"-"31" "JP1"-"5")
+    )
+    (net "VCC"
+      (pins  "ATMEGAXX8"-"4" "ATMEGAXX8"-"6" "R1"-"2" "C1"-"2" "JP2"-"6" "JP1"-"3" "L1"-"2" "RG1"-"2" "RG1"-"TAB" "C5"-"1")
+    )
+  )
+  (wiring
+  )
+)
