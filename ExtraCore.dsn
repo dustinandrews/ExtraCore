@@ -5,236 +5,245 @@
     (host_cad CadSoft)
     (host_version 'EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft')
   )
-  (resolution mil 254)
-  (unit mil)
+  (resolution mm 10000)
+  (unit mm)
   (structure
     (layer "1#Top"  (type signal))
     (layer "16#Bottom"  (type signal))
     (boundary 
-      (rect pcb  0.000000 0.000000 780.000000 880.000000)
+      (rect pcb  0.000000 0.000000 19.812000 22.352000)
     )
-    (boundary (path signal 0 0.000000 0.000000 0.000000 880.000000))
-    (boundary (path signal 0 0.000000 880.000000 780.000000 880.000000))
-    (boundary (path signal 0 780.000000 880.000000 780.000000 0.000000))
-    (boundary (path signal 0 780.000000 0.000000 0.000000 0.000000))
+    (boundary (path signal 0 0.000000 0.000000 0.000000 22.352000))
+    (boundary (path signal 0 0.000000 22.352000 19.812000 22.352000))
+    (boundary (path signal 0 19.812000 22.352000 19.812000 0.000000))
+    (boundary (path signal 0 19.812000 0.000000 0.000000 0.000000))
     (via
-       "Round1$15.000000"
+       "Round1$0.381000"
     )
-    (rule (width 8.000000)(clearance 8.000000))
+    (rule (width 0.203200)(clearance 0.203200))
     (control
       (via_at_smd on)
     )
   )
   (placement
     (place_control (flip_style rotate_first))
-    (component "1X01$SparkFun" 
-      (place "A5" 40.000000 40.000000 Front 0.000000)
+    (component "1X01M$pinhead" 
+      (place "A5" 1.016000 1.016000 Front 0.000000)
     )
-    (component "1X01$SparkFun" 
-      (place "AREF" 640.000000 840.000000 Front 0.000000)
-    )
-    (component "0805$SparkFun" 
-      (place "C1" 340.000000 170.000000 Front 0.000000)
+    (component "1X01M$pinhead" 
+      (place "AREF" 17.256000 21.336000 Front 0.000000)
     )
     (component "0805$SparkFun" 
-      (place "C2" 190.000000 680.000000 Front 270.000000)
+      (place "C1" 8.636000 4.318000 Front 0.000000)
     )
     (component "0805$SparkFun" 
-      (place "C3" 340.000000 670.000000 Front 0.000000)
+      (place "C2" 4.826000 17.272000 Front 270.000000)
+    )
+    (component "0805$SparkFun" 
+      (place "C3" 8.636000 17.018000 Front 0.000000)
     )
     (component "0805$SparkFun-Passives" 
-      (place "C4" 488.000000 547.000000 Back 90.000000)
+      (place "C4" 12.395200 13.893800 Back 90.000000)
     )
     (component "0805$SparkFun-Passives" 
-      (place "C5" 398.000000 550.000000 Back 90.000000)
+      (place "C5" 10.109200 13.970000 Back 90.000000)
     )
-    (component "1X06$SparkFun" 
-      (place "JP1" 40.000000 840.000000 Front 0.000000)
+    (component "1X06M$pinhead" 
+      (place "FTDI" 10.000000 21.000000 Front 0.000000)
     )
-    (component "1X07$SparkFun" 
-      (place "JP2" 40.000000 140.000000 Front 90.000000)
+    (component "1X07M$pinhead" 
+      (place "JP1" 1.000000 15.000000 Front 90.000000)
     )
-    (component "1X07$SparkFun" 
-      (place "JP3" 740.000000 40.000000 Front 180.000000)
+    (component "1X05M$pinhead" 
+      (place "JP2" 11.000000 1.000000 Front 180.000000)
     )
-    (component "1X07$SparkFun" 
-      (place "JP4" 740.000000 740.000000 Front 270.000000)
+    (component "1X07M$pinhead" 
+      (place "JP5" 19.000000 13.000000 Front 270.000000)
     )
     (component "0805$SparkFun" 
-      (place "L1" 450.000000 670.000000 Front 0.000000)
+      (place "L1" 11.430000 17.018000 Front 0.000000)
     )
     (component "LED1206$ExtraCore" 
-      (place "LED1" 580.000000 570.000000 Front 270.000000)
+      (place "LED1" 14.732000 14.478000 Front 270.000000)
     )
     (component "0805$SparkFun" 
-      (place "R1" 250.000000 680.000000 Front 90.000000)
+      (place "R1" 6.350000 17.272000 Front 90.000000)
     )
     (component "0805$SparkFun" 
-      (place "R2" 590.000000 690.000000 Front 180.000000)
+      (place "R2" 14.986000 17.526000 Front 180.000000)
     )
-    (component "1X01$SparkFun" 
-      (place "RESET" 740.000000 840.000000 Front 0.000000)
+    (component "1X01M$pinhead" 
+      (place "RESET" 18.796000 21.336000 Front 0.000000)
     )
     (component "SOT223$Dustin" 
-      (place "RG1" 398.000000 286.000000 Back 180.000000)
+      (place "RG1" 10.109200 7.264400 Back 180.000000)
     )
     (component "28VQFN$Dustin" 
-      (place "UC1" 381.000000 421.000000 Front 90.000000)
+      (place "UC1" 9.677400 10.693400 Front 90.000000)
     )
     (component "RESONATOR-SMD$SparkFun" 
-      (place "Y1" 480.000000 156.000000 Front 0.000000)
+      (place "Y1" 12.192000 3.962400 Front 0.000000)
     )
   )
   (library
     (image "28VQFN$Dustin"
-      (pin "Rectangle1" "1" -66.929134 51.181102)
-      (pin "Rectangle1" "2" -66.929134 33.464567)
-      (pin "Rectangle1" "3" -66.929134 15.748031)
-      (pin "Rectangle1" "4" -66.929134 -1.968504)
-      (pin "Rectangle1" "5" -66.929134 -19.685039)
-      (pin "Rectangle1" "6" -66.929134 -37.401575)
-      (pin "Rectangle1" "7" -66.929134 -55.118110)
-      (pin "Rectangle2" "8" -51.181102 -74.803150)
-      (pin "Rectangle2" "9" -33.464567 -74.803150)
-      (pin "Rectangle2" "10" -15.748031 -74.803150)
-      (pin "Rectangle2" "11" 1.968504 -74.803150)
-      (pin "Rectangle2" "12" 19.685039 -74.803150)
-      (pin "Rectangle2" "13" 37.401575 -74.803150)
-      (pin "Rectangle2" "14" 55.118110 -74.803150)
-      (pin "Rectangle1" "15" 66.929134 -55.118110)
-      (pin "Rectangle1" "16" 66.929134 -37.401575)
-      (pin "Rectangle1" "17" 66.929134 -19.685039)
-      (pin "Rectangle1" "18" 66.929134 -1.968504)
-      (pin "Rectangle1" "19" 66.929134 15.748031)
-      (pin "Rectangle1" "20" 66.929134 33.464567)
-      (pin "Rectangle1" "21" 66.929134 51.181102)
-      (pin "Rectangle2" "22" 51.181102 70.866142)
-      (pin "Rectangle2" "23" 33.464567 70.866142)
-      (pin "Rectangle2" "24" 15.748031 70.866142)
-      (pin "Rectangle2" "25" -1.968504 70.866142)
-      (pin "Rectangle2" "26" -19.685039 70.866142)
-      (pin "Rectangle2" "27" -37.401575 70.866142)
-      (pin "Rectangle2" "28" -55.118110 70.866142)
+      (pin "Rectangle1" "1" -1.700000 1.300000)
+      (pin "Rectangle1" "2" -1.700000 0.850000)
+      (pin "Rectangle1" "3" -1.700000 0.400000)
+      (pin "Rectangle1" "4" -1.700000 -0.050000)
+      (pin "Rectangle1" "5" -1.700000 -0.500000)
+      (pin "Rectangle1" "6" -1.700000 -0.950000)
+      (pin "Rectangle1" "7" -1.700000 -1.400000)
+      (pin "Rectangle2" "8" -1.300000 -1.900000)
+      (pin "Rectangle2" "9" -0.850000 -1.900000)
+      (pin "Rectangle2" "10" -0.400000 -1.900000)
+      (pin "Rectangle2" "11" 0.050000 -1.900000)
+      (pin "Rectangle2" "12" 0.500000 -1.900000)
+      (pin "Rectangle2" "13" 0.950000 -1.900000)
+      (pin "Rectangle2" "14" 1.400000 -1.900000)
+      (pin "Rectangle1" "15" 1.700000 -1.400000)
+      (pin "Rectangle1" "16" 1.700000 -0.950000)
+      (pin "Rectangle1" "17" 1.700000 -0.500000)
+      (pin "Rectangle1" "18" 1.700000 -0.050000)
+      (pin "Rectangle1" "19" 1.700000 0.400000)
+      (pin "Rectangle1" "20" 1.700000 0.850000)
+      (pin "Rectangle1" "21" 1.700000 1.300000)
+      (pin "Rectangle2" "22" 1.300000 1.800000)
+      (pin "Rectangle2" "23" 0.850000 1.800000)
+      (pin "Rectangle2" "24" 0.400000 1.800000)
+      (pin "Rectangle2" "25" -0.050000 1.800000)
+      (pin "Rectangle2" "26" -0.500000 1.800000)
+      (pin "Rectangle2" "27" -0.950000 1.800000)
+      (pin "Rectangle2" "28" -1.400000 1.800000)
       (pin "Rectangle3" "PAD" 0.000000 0.000000)
     )
     (image "SOT223$Dustin"
-      (pin "Rectangle4" "1" -91.000000 -122.000000)
-      (pin "Rectangle4" "2" 0.000000 -122.000000)
-      (pin "Rectangle4" "3" 91.000000 -122.000000)
-      (pin "Rectangle5" "TAB" 0.000000 122.007874)
+      (pin "Rectangle4" "1" -2.311400 -3.098800)
+      (pin "Rectangle4" "2" 0.000000 -3.098800)
+      (pin "Rectangle4" "3" 2.311400 -3.098800)
+      (pin "Rectangle5" "TAB" 0.000000 3.099000)
     )
     (image "LED1206$ExtraCore"
-    (outline (path signal 0 -31.496063 31.496063 31.496063 31.496063))
-    (outline (path signal 0 -31.496063 -31.496063 31.496063 -31.496063))
-    (outline (path signal 0 15.748031 23.622047 15.748031 -23.622047))
-    (outline (path signal 0 -23.622047 23.622047 -23.622047 -23.622047))
-    (outline (path signal 0 -23.622047 -23.622047 15.748031 0.000000))
-    (outline (path signal 0 15.748031 0.000000 -23.622047 23.622047))
-      (pin "Rectangle6" "A" -59.055118 0.000000)
-      (pin "Rectangle6" "K" 59.055118 0.000000)
-    )
-    (image "1X01$SparkFun"
-      (pin "Round2" "1" 0.000000 0.000000)
-    )
-    (image "1X06$SparkFun"
-      (pin "Round2" "1" 0.000000 0.000000)
-      (pin "Round2" "2" 100.000000 0.000000)
-      (pin "Round2" "3" 200.000000 0.000000)
-      (pin "Round2" "4" 300.000000 0.000000)
-      (pin "Round2" "5" 400.000000 0.000000)
-      (pin "Round2" "6" 500.000000 0.000000)
-    )
-    (image "1X07$SparkFun"
-      (pin "Round2" "1" 0.000000 0.000000)
-      (pin "Round2" "2" 100.000000 0.000000)
-      (pin "Round2" "3" 200.000000 0.000000)
-      (pin "Round2" "4" 300.000000 0.000000)
-      (pin "Round2" "5" 400.000000 0.000000)
-      (pin "Round2" "6" 500.000000 0.000000)
-      (pin "Round2" "7" 600.000000 0.000000)
+    (outline (path signal 0 -0.800000 0.800000 0.800000 0.800000))
+    (outline (path signal 0 -0.800000 -0.800000 0.800000 -0.800000))
+    (outline (path signal 0 0.400000 0.600000 0.400000 -0.600000))
+    (outline (path signal 0 -0.600000 0.600000 -0.600000 -0.600000))
+    (outline (path signal 0 -0.600000 -0.600000 0.400000 0.000000))
+    (outline (path signal 0 0.400000 0.000000 -0.600000 0.600000))
+      (pin "Rectangle6" "A" -1.500000 0.000000)
+      (pin "Rectangle6" "K" 1.500000 0.000000)
     )
     (image "0805$SparkFun"
-      (pin "Rectangle7" "1" -35.433071 0.000000)
-      (pin "Rectangle7" "2" 35.433071 0.000000)
+      (pin "Rectangle7" "1" -0.900000 0.000000)
+      (pin "Rectangle7" "2" 0.900000 0.000000)
     )
     (image "RESONATOR-SMD$SparkFun"
-      (pin "Rectangle8" "1" -47.244094 0.000000)
+      (pin "Rectangle8" "1" -1.200000 0.000000)
       (pin "Rectangle8" "2" 0.000000 0.000000)
-      (pin "Rectangle8" "3" 47.244094 0.000000)
+      (pin "Rectangle8" "3" 1.200000 0.000000)
     )
     (image "0805$SparkFun-Passives"
-      (pin "Rectangle7" "1" -35.433071 0.000000)
-      (pin "Rectangle7" "2" 35.433071 0.000000)
+      (pin "Rectangle7" "1" -0.900000 0.000000)
+      (pin "Rectangle7" "2" 0.900000 0.000000)
     )
-    (padstack "ViaDefault$15.000000"
-      (shape (circle signal 27.000000 0 0))
+    (image "1X01M$pinhead"
+      (pin "Square1" "1" 0.000000 0.000000)
     )
-    (padstack "Round1$15.000000" 
-      (shape (circle "1#Top" 27.000000 0 0))
-      (shape (circle "16#Bottom" 27.000000 0 0))
+    (image "1X05M$pinhead"
+      (pin "Square1" "1" -4.000000 0.000000)
+      (pin "Round2" "2" -2.000000 0.000000)
+      (pin "Round3" "3" 0.000000 0.000000)
+      (pin "Round3" "4" 2.000000 0.000000)
+      (pin "Round3" "5" 4.000000 0.000000)
+    )
+    (image "1X06M$pinhead"
+      (pin "Square1" "1" -5.000000 0.000000)
+      (pin "Round2" "2" -3.000000 0.000000)
+      (pin "Round3" "3" -1.000000 0.000000)
+      (pin "Round3" "4" 1.000000 0.000000)
+      (pin "Round3" "5" 3.000000 0.000000)
+      (pin "Round3" "6" 5.000000 0.000000)
+    )
+    (image "1X07M$pinhead"
+      (pin "Square1" "1" -6.000000 0.000000)
+      (pin "Round2" "2" -4.000000 0.000000)
+      (pin "Round3" "3" -2.000000 0.000000)
+      (pin "Round3" "4" 0.000000 0.000000)
+      (pin "Round3" "5" 2.000000 0.000000)
+      (pin "Round3" "6" 4.000000 0.000000)
+      (pin "Round3" "7" 6.000000 0.000000)
+    )
+    (padstack "ViaDefault$0.381000"
+      (shape (circle signal 0.685800 0 0))
+    )
+    (padstack "Round1$0.381000" 
+      (shape (circle "1#Top" 0.685800 0 0))
+      (shape (circle "16#Bottom" 0.685800 0 0))
       (attach off)
     )
     (padstack "Rectangle1" 
-      (shape (rect "1#Top" -7.874016 -4.330709 7.874016 4.330709))
+      (shape (rect "1#Top" -0.200000 -0.110000 0.200000 0.110000))
       (attach off)
     )
     (padstack "Rectangle2" 
-      (shape (rect "1#Top" -4.330709 -7.874016 4.330709 7.874016))
+      (shape (rect "1#Top" -0.110000 -0.200000 0.110000 0.200000))
       (attach off)
     )
     (padstack "Rectangle3" 
-      (shape (rect "1#Top" -47.244094 -47.244094 47.244094 47.244094))
+      (shape (rect "1#Top" -1.200000 -1.200000 1.200000 1.200000))
       (attach off)
     )
     (padstack "Rectangle4" 
-      (shape (rect "1#Top" -24.000000 -44.000000 24.000000 44.000000))
+      (shape (rect "1#Top" -0.609600 -1.117600 0.609600 1.117600))
       (attach off)
     )
     (padstack "Rectangle5" 
-      (shape (rect "1#Top" -70.866142 -43.307087 70.866142 43.307087))
+      (shape (rect "1#Top" -1.800000 -1.100000 1.800000 1.100000))
       (attach off)
     )
     (padstack "Rectangle6" 
-      (shape (rect "1#Top" -19.685039 -29.527559 19.685039 29.527559))
-      (attach off)
-    )
-    (padstack "Round2" 
-      (shape (circle signal 60.000000 0 0))
+      (shape (rect "1#Top" -0.500000 -0.750000 0.500000 0.750000))
       (attach off)
     )
     (padstack "Rectangle7" 
-      (shape (rect "1#Top" -15.748031 -23.622047 15.748031 23.622047))
+      (shape (rect "1#Top" -0.400000 -0.600000 0.400000 0.600000))
       (attach off)
     )
     (padstack "Rectangle8" 
-      (shape (rect "1#Top" -13.779528 -33.464567 13.779528 33.464567))
+      (shape (rect "1#Top" -0.350000 -0.850000 0.350000 0.850000))
+      (attach off)
+    )
+    (padstack "Square1" 
+      (shape (rect signal -0.685800 -0.685800 0.685800 0.685800))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 1.371600 0 0))
+      (attach off)
+    )
+    (padstack "Round3" 
+      (shape (circle signal 1.371600 0 0))
       (attach off)
     )
   )
   (network
     (net "A0"
-      (pins  "JP2"-"5" "UC1"-"19")
+      (pins  "UC1"-"19" "JP1"-"5")
     )
     (net "A1"
-      (pins  "JP2"-"4" "UC1"-"20")
+      (pins  "UC1"-"20" "JP1"-"4")
     )
     (net "A2"
-      (pins  "JP2"-"3" "UC1"-"21")
+      (pins  "UC1"-"21" "JP1"-"3")
     )
     (net "A3"
-      (pins  "JP2"-"2" "UC1"-"22")
+      (pins  "UC1"-"22" "JP1"-"2")
     )
     (net "A4"
-      (pins  "JP2"-"1" "UC1"-"23")
+      (pins  "UC1"-"23" "JP1"-"1")
     )
     (net "A5"
       (pins  "A5"-"1" "UC1"-"24")
-    )
-    (net "A6"
-      (pins  "JP3"-"7")
-    )
-    (net "A7"
-      (pins  "JP3"-"6")
     )
     (net "AREF"
       (pins  "AREF"-"1" "UC1"-"17")
@@ -243,43 +252,43 @@
       (pins  "L1"-"1" "C3"-"2" "UC1"-"16")
     )
     (net "D2"
-      (pins  "JP3"-"5" "UC1"-"28")
+      (pins  "UC1"-"28" "JP2"-"5")
     )
     (net "D3"
-      (pins  "JP3"-"4" "UC1"-"1")
+      (pins  "UC1"-"1" "JP2"-"4")
     )
     (net "D4"
-      (pins  "JP3"-"3" "UC1"-"2")
+      (pins  "UC1"-"2" "JP2"-"3")
     )
     (net "D5"
-      (pins  "JP3"-"2" "UC1"-"7")
+      (pins  "UC1"-"7" "JP2"-"2")
     )
     (net "D6"
-      (pins  "JP3"-"1" "UC1"-"8")
+      (pins  "UC1"-"8" "JP2"-"1")
     )
     (net "D7"
-      (pins  "JP4"-"7" "UC1"-"9")
+      (pins  "UC1"-"9" "JP5"-"7")
     )
     (net "D8"
-      (pins  "JP4"-"6" "UC1"-"10")
+      (pins  "UC1"-"10" "JP5"-"6")
     )
     (net "D9"
-      (pins  "JP4"-"5" "UC1"-"11")
+      (pins  "UC1"-"11" "JP5"-"5")
     )
     (net "D10"
-      (pins  "JP4"-"4" "UC1"-"12")
+      (pins  "UC1"-"12" "JP5"-"4")
     )
     (net "DTR"
-      (pins  "C2"-"1" "JP1"-"6")
+      (pins  "C2"-"1" "FTDI"-"6")
     )
     (net "GND"
-      (pins  "Y1"-"2" "C1"-"1" "JP1"-"1" "JP1"-"2" "C3"-"1" "LED1"-"K" "RG1"-"1" "C4"-"2" "C5"-"2")
+      (pins  "Y1"-"2" "C1"-"1" "C3"-"1" "LED1"-"K" "RG1"-"1" "C4"-"2" "C5"-"2" "FTDI"-"2" "FTDI"-"1")
     )
     (net "MISO"
-      (pins  "JP4"-"2" "UC1"-"14")
+      (pins  "UC1"-"14" "JP5"-"2")
     )
     (net "MOSI"
-      (pins  "JP4"-"3" "UC1"-"13")
+      (pins  "UC1"-"13" "JP5"-"3")
     )
     (net "N$3"
       (pins  "Y1"-"1" "UC1"-"5")
@@ -294,22 +303,22 @@
       (pins  "UC1"-"18" "UC1"-"4" "UC1"-"PAD")
     )
     (net "RAW"
-      (pins  "RG1"-"3" "C4"-"1" "JP2"-"7")
+      (pins  "RG1"-"3" "C4"-"1" "JP1"-"7")
     )
     (net "RESET"
       (pins  "R1"-"1" "C2"-"2" "RESET"-"1" "UC1"-"25")
     )
     (net "RX"
-      (pins  "JP1"-"4" "UC1"-"26")
+      (pins  "UC1"-"26" "FTDI"-"4")
     )
     (net "SCK"
-      (pins  "R2"-"2" "JP4"-"1" "UC1"-"15")
+      (pins  "R2"-"2" "UC1"-"15" "JP5"-"1")
     )
     (net "TX"
-      (pins  "JP1"-"5" "UC1"-"27")
+      (pins  "UC1"-"27" "FTDI"-"5")
     )
     (net "VCC"
-      (pins  "R1"-"2" "C1"-"2" "JP2"-"6" "JP1"-"3" "L1"-"2" "RG1"-"2" "RG1"-"TAB" "C5"-"1" "UC1"-"3")
+      (pins  "R1"-"2" "C1"-"2" "L1"-"2" "RG1"-"2" "RG1"-"TAB" "C5"-"1" "UC1"-"3" "FTDI"-"3" "JP1"-"6")
     )
   )
   (wiring
