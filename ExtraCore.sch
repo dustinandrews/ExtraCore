@@ -1849,24 +1849,24 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </package>
 <package name="1X06M">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 2MM"</description>
-<wire x1="6.25" y1="1.25" x2="6.25" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="6.25" y1="-1.25" x2="-6.25" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="-6.25" y1="-1.25" x2="-6.25" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="-6.25" y1="1.25" x2="6.25" y2="1.25" width="0.2032" layer="21"/>
-<pad name="1" x="-5" y="0" drill="0.9144" shape="square"/>
-<pad name="2" x="-3" y="0" drill="0.9144"/>
-<pad name="3" x="-1" y="0" drill="0.9144" rot="R270"/>
-<pad name="4" x="1" y="0" drill="0.9144" rot="R270"/>
-<pad name="5" x="3" y="0" drill="0.9144" rot="R270"/>
-<pad name="6" x="5" y="0" drill="0.9144" rot="R270"/>
-<text x="-7" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
-<text x="8" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-3.25" y1="-0.25" x2="-2.75" y2="0.25" layer="51"/>
-<rectangle x1="-5.25" y1="-0.25" x2="-4.75" y2="0.25" layer="51"/>
-<rectangle x1="0.75" y1="-0.25" x2="1.25" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="-1.25" y1="-0.25" x2="-0.75" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="4.75" y1="-0.25" x2="5.25" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="2.75" y1="-0.25" x2="3.25" y2="0.25" layer="51" rot="R270"/>
+<wire x1="11.25" y1="1.25" x2="11.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="11.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="11.25" y2="1.25" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9144"/>
+<pad name="2" x="2" y="0" drill="0.9144"/>
+<pad name="3" x="4" y="0" drill="0.9144" rot="R270"/>
+<pad name="4" x="6" y="0" drill="0.9144" rot="R270"/>
+<pad name="5" x="8" y="0" drill="0.9144" rot="R270"/>
+<pad name="6" x="10" y="0" drill="0.9144" rot="R270"/>
+<text x="-2" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
+<text x="13" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="1.75" y1="-0.25" x2="2.25" y2="0.25" layer="51"/>
+<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
+<rectangle x1="5.75" y1="-0.25" x2="6.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="3.75" y1="-0.25" x2="4.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="9.75" y1="-0.25" x2="10.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="7.75" y1="-0.25" x2="8.25" y2="0.25" layer="51" rot="R270"/>
 </package>
 <package name="1X07">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 0.1"</description>
@@ -1895,45 +1895,45 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </package>
 <package name="1X05M">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 2MM"</description>
-<wire x1="5.25" y1="1.25" x2="5.25" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-1.25" x2="-5.25" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="-5.25" y1="-1.25" x2="-5.25" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="-5.25" y1="1.25" x2="5.25" y2="1.25" width="0.2032" layer="21"/>
-<pad name="1" x="-4" y="0" drill="0.9144" shape="square"/>
-<pad name="2" x="-2" y="0" drill="0.9144"/>
-<pad name="3" x="0" y="0" drill="0.9144" rot="R270"/>
-<pad name="4" x="2" y="0" drill="0.9144" rot="R270"/>
-<pad name="5" x="4" y="0" drill="0.9144" rot="R270"/>
-<text x="-6" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
-<text x="7" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.25" y1="-0.25" x2="-1.75" y2="0.25" layer="51"/>
-<rectangle x1="-4.25" y1="-0.25" x2="-3.75" y2="0.25" layer="51"/>
-<rectangle x1="1.75" y1="-0.25" x2="2.25" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51" rot="R270"/>
+<wire x1="9.25" y1="1.25" x2="9.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="9.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="9.25" y2="1.25" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9144" shape="square"/>
+<pad name="2" x="2" y="0" drill="0.9144"/>
+<pad name="3" x="4" y="0" drill="0.9144" rot="R270"/>
+<pad name="4" x="6" y="0" drill="0.9144" rot="R270"/>
+<pad name="5" x="8" y="0" drill="0.9144" rot="R270"/>
+<text x="-2" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
+<text x="11" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="1.75" y1="-0.25" x2="2.25" y2="0.25" layer="51"/>
+<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
+<rectangle x1="5.75" y1="-0.25" x2="6.25" y2="0.25" layer="51" rot="R270"/>
 <rectangle x1="3.75" y1="-0.25" x2="4.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="7.75" y1="-0.25" x2="8.25" y2="0.25" layer="51" rot="R270"/>
 </package>
 <package name="1X07M">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 2MM"</description>
-<wire x1="7.25" y1="1.25" x2="7.25" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="7.25" y1="-1.25" x2="-7.25" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="-7.25" y1="-1.25" x2="-7.25" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="-7.25" y1="1.25" x2="7.25" y2="1.25" width="0.2032" layer="21"/>
-<pad name="1" x="-6" y="0" drill="0.9144" shape="square"/>
-<pad name="2" x="-4" y="0" drill="0.9144"/>
-<pad name="3" x="-2" y="0" drill="0.9144" rot="R270"/>
-<pad name="4" x="0" y="0" drill="0.9144" rot="R270"/>
-<pad name="5" x="2" y="0" drill="0.9144" rot="R270"/>
-<pad name="6" x="4" y="0" drill="0.9144" rot="R270"/>
-<pad name="7" x="6" y="0" drill="0.9144" rot="R270"/>
-<text x="-8" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
-<text x="9" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.25" y1="-0.25" x2="-3.75" y2="0.25" layer="51"/>
-<rectangle x1="-6.25" y1="-0.25" x2="-5.75" y2="0.25" layer="51"/>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="-2.25" y1="-0.25" x2="-1.75" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="3.75" y1="-0.25" x2="4.25" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="1.75" y1="-0.25" x2="2.25" y2="0.25" layer="51" rot="R270"/>
+<wire x1="13.25" y1="1.25" x2="13.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="13.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="13.25" y2="1.25" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9144"/>
+<pad name="2" x="2" y="0" drill="0.9144"/>
+<pad name="3" x="4" y="0" drill="0.9144" rot="R270"/>
+<pad name="4" x="6" y="0" drill="0.9144" rot="R270"/>
+<pad name="5" x="8" y="0" drill="0.9144" rot="R270"/>
+<pad name="6" x="10" y="0" drill="0.9144" rot="R270"/>
+<pad name="7" x="12" y="0" drill="0.9144" rot="R270"/>
+<text x="-2" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
+<text x="15" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="1.75" y1="-0.25" x2="2.25" y2="0.25" layer="51"/>
+<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
 <rectangle x1="5.75" y1="-0.25" x2="6.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="3.75" y1="-0.25" x2="4.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="9.75" y1="-0.25" x2="10.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="7.75" y1="-0.25" x2="8.25" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="11.75" y1="-0.25" x2="12.25" y2="0.25" layer="51" rot="R270"/>
 </package>
 <package name="1X05">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 0.1"</description>
@@ -1962,7 +1962,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.2032" layer="51"/>
 <wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.2032" layer="51"/>
 <wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.9144" shape="square"/>
+<pad name="1" x="0" y="0" drill="0.9144"/>
 <text x="-2" y="-1" size="1.016" layer="25" ratio="14" rot="R90">&gt;NAME</text>
 <text x="3" y="-1" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
