@@ -1,2 +1,0 @@
-DRC SAVE 'C:/Users/a-duandr/Documents/GitHub/ExtraCore/ExtraCore.dru';
-RUN brd_to_dsn_v6.ulp f;

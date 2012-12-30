@@ -1,9 +1,9 @@
-(PCB "C:/Users/a-duandr/Documents/GitHub/ExtraCore/ExtraCore.brd"
+(PCB "C:/Users/dustin/Documents/eagle/ExtraCore/ExtraCore.brd"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad CadSoft)
-    (host_version 'EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft')
+    (host_version 'EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft')
   )
   (resolution mil 254)
   (unit mil)
@@ -46,10 +46,10 @@
       (place "C3" 340.000000 670.000000 Front 0.000000)
     )
     (component "0805$SparkFun-Passives" 
-      (place "C4" 488.000000 547.000000 Back 90.000000)
+      (place "C4" 355.000000 713.000000 Back 90.000000)
     )
     (component "0805$SparkFun-Passives" 
-      (place "C5" 398.000000 550.000000 Back 90.000000)
+      (place "C5" 265.000000 716.000000 Back 90.000000)
     )
     (component "1X06$SparkFun" 
       (place "JP1" 40.000000 840.000000 Front 0.000000)
@@ -79,7 +79,7 @@
       (place "RESET" 740.000000 840.000000 Front 0.000000)
     )
     (component "SOT223$Dustin" 
-      (place "RG1" 398.000000 286.000000 Back 180.000000)
+      (place "RG1" 262.000000 453.000000 Back 180.000000)
     )
     (component "RESONATOR-SMD$SparkFun" 
       (place "Y1" 480.000000 156.000000 Front 0.000000)
@@ -307,6 +307,27 @@
     )
     (net "VCC"
       (pins  "ATMEGAXX8"-"4" "ATMEGAXX8"-"6" "R1"-"2" "C1"-"2" "JP2"-"6" "JP1"-"3" "L1"-"2" "RG1"-"2" "RG1"-"TAB" "C5"-"1")
+    )
+    (class "default"
+       "A0" "A1" "A2" "A3" "A4" "A5" "A6" "A7" "AREF" "AVCC" "D2" "D3" "D4" "D5" "D6" "D7" "D8" "D9" "D10" "DTR" "MISO" "MOSI" "N$3" "N$4" "N$6" "RESET" "RX" "SCK" "TX"
+      (rule
+        (width 8.000000)
+        (clearance 8.000000)
+      )
+    )
+    (class "GND"
+       "GND"
+      (rule
+        (width 12.000000)
+        (clearance 8.000000)
+      )
+    )
+    (class "PWR"
+       "RAW" "VCC"
+      (rule
+        (width 12.000000)
+        (clearance 8.000000)
+      )
     )
   )
   (wiring
